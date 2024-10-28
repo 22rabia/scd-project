@@ -1,0 +1,111 @@
+/* Style for the navigation bar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ /*font-family: sans-serif;*/
+ background-color: rgb(238, 238, 238);
+}
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(116, 118, 145);
+  text-align: left;
+  
+}
+.Faq
+{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3.5rem;
+  
+
+}
+.fq{
+  background-color: rgb(164, 169, 182);
+  color: black;
+}
+
+a{
+   font-size: larger;
+  text-decoration: none;
+  color: rgb(212, 135, 34);
+
+}
+
+ul.navbar li {
+  float: left;
+  text-align: right;
+  justify-content: right;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the header */
+header {
+  text-align: center;
+  background-color: rgb(116, 118, 145);
+  color: white;
+  padding: 20px;
+}
+
+/* Style for product containers */
+.product {
+  border: 1px solid #ddd;
+  margin: 9px;
+  margin-top: 50px;
+  padding: 20px;
+  background-color:rgb(233, 131, 29);
+ /* background-color:rgb(182, 178, 174);*/
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 20%;
+  border-radius: 2rem;
+
+  text-align: center;
+}
+
+.product img {
+  width:50%;
+ height: 50%;
+}
+
+.price {
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+button:hover {
+ background-color: rgb(104, 100, 100);
+}
+
+main {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}

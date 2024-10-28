@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    display: flex;
+   
+    height: 100vh; /* Set the container's height to the viewport height for a full-screen background */
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.invalid{
+    color: red;
+    display: none;
+}
+
+.container {
+    background-color:rgb(58, 27, 27,0.6);
+    
+    max-width: 400px;
+    padding: 20px;
+    
+    border-radius: 5px;
+   
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+input[type="Firstname"],[type="Lastname"],[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #007bff;
+}
+.sucess{
+    display: none;
+    color:green;
+}
+.fail{
+    display:none;
+    color: red;
+}
+.conf{
+    display: none;
+    color: red;
+}
+#confirm{
+    color: red;
+}

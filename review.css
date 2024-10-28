@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white; /* Light Gray Background */
+    color:#e1e8ec ;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #042a31;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #e1e8ec; /* Dark Blue Color for the heading */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px; /* Set a fixed height for the textarea */
+    resize: none; /* Disable textarea resizing */
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 24px;
+    color: #333; /* Default color for stars */
+    cursor: pointer;
+    margin-right: 20px; /* Space between stars */
+}
+
+.star-rating input:checked ~ label {
+    color: #FFD700; /* Golden color for selected stars */
+}
+
+button {
+    background-color: #16455c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4b87a5;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating {
+    display: inline-block;
+    font-size: 0; /* Remove whitespace between inline-block elements */
+}
+
+.rating input {
+    display: none; /* Hide the radio buttons */
+}
+
+.rating label {
+    display: inline-block;
+    font-size: 25px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: #FFD700; /* Change color on hover and for checked stars */
+}
+
